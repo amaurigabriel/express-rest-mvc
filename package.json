@@ -1,0 +1,25 @@
+{
+  "name": "blog_api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "supervisor ./bin/www"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bcrypt": "^0.8.1",
+    "bluebird": "2.9.x",
+    "body-parser": "~1.8.1",        
+    "debug": "~2.0.0",
+    "express": "~4.9.0",
+    "express-session": "^1.10.3",        
+    "moment": "^2.9.0",
+    "morgan": "~1.3.0",
+    "mysql2": "^0.15.2",
+    "request-promise": "^0.4.0",        
+    "squel": "^3.10.0",
+    "supervisor" : "*",
+    "tracer": "^0.7.3",
+    "validation-engine": "0.1.0"
+  }
+}

@@ -1,0 +1,20 @@
+exports.database = {
+    'default' : {
+        'host' : 'localhost',
+        'user' : 'root',
+        'password' : '*(FDYfudsafhd',
+        'database' : '',
+        'connectionLimit' : 500
+    }
+};
+
+exports.main = {
+    port : 9876,
+};
+
+//for the tracer package
+exports.logger = {
+  level : 'log'
+};
+
+module.exports = exports;
